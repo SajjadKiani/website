@@ -1,12 +1,12 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="myStyle.css" >
+    <link rel="stylesheet" href="Styles/myStyle.css" >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sajad Kiani</title>
 
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="Images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -17,18 +17,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="d-flex row h-100 align-items-center">
-            <div class="col-md-6 mb-5">
+        <div class="h-100 d-flex align-items-center flex-wrap justify-content-between">
+            <div class="col-sm-6 mb-5b h-100">
                 
-                <div>
+                <div class="d-flex flex-column h-100 flex-wrap justify-content-between">
                     
-                    <div class="">
-                        <img src="logo.png" class="img-fluid" alt="logo" width="100">
-                        <h1 id="name" class="mt-4">Sajad Kiyani</h1>
+                    <div>
+                        <img src="Images/logo.png" class="img-fluid mt-3" alt="logo" width="100">
+                        <nav class="mt-4 nav">
+                            <li><a id="nav" href="Pages/portfolio.html" class="font-monospace m-3">> Protfolio</a></li>
+                            <li><a id="nav" href="Pages/bookmark.html" class="font-monospace m-3">> Bookmarks</a></li>
+                        </nav>
                     </div>
 
                     <div>
-                        <p id="text"><br/>
+                        <h1 id="name" class="mb-2">Sajad Kiyani</h1>
+                        <p class="text-muted" id="text"><br/>
                             I don't mind if you love to know more about me, I mean just <br class="hidden-xs"> Socially on <a id="a1" href="https://www.instagram.com/sajjad.k2002/">Instagram</a>, <a id="a1" href="https://twitter.com/sjdkian?s=09">Twitter</a> and <a id="a1" href="https://www.clubhouse.com/@sajad.k">ClubHouse</a>.
                         </p>
                     </div>
@@ -44,8 +48,8 @@
 
             </div>
 
-            <div class="col-md-6 h-100">
-                <img src="pic.jpg" alt="" class="img-fluid h-100">
+            <div class="d-flex col-sm-4 h-100">
+                <img src="Images/pic.jpg" alt="banner" class="img-fluid h-100 banner">
             </div>
         </div>
     </div>

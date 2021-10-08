@@ -1,0 +1,31 @@
+
+#name {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+}
+
+#text {
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+
+#a1  {
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#nav {
+    color: black;
+}
+
+#nav:hover {
+    /* transform: scaleY(1.5); */
+    transform: rotate(180deg);
+}
+
+@media (max-width: 430px) {
+    .banner {
+        display: none;
+    }
+}
