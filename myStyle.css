@@ -1,8 +1,4 @@
 
-#left{
-    padding-left: 4%;
-}
-
 #name {
     font-family: 'Playfair Display';
     font-size: 50px;
@@ -18,12 +14,12 @@
    font-weight: bold;
 }
 
-#a1:hover {
+#a1 {
     text-decoration: none;
 }
 
-@media (max-width: 390px) {
-    .extra{
-        display: none;
+/* @media (max-width: 390px) {
+    p {
+        color: blue;
     }
-}
+} */
